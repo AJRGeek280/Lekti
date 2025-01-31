@@ -360,11 +360,11 @@ a:hover, a:active, a:focus {
   text-align: justify; /* Justifie le texte */
 }
 
-#implus img{
-  max-width: 50%; /* L'image ne dépasse pas son conteneur */
-  height: auto; /* Garde les proportions de l'image */
-  border-radius: 8px; /* Coins arrondis */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+#implus img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 700px !important; /* Ajuste selon tes besoins */
+  object-fit: cover;
 }
 
 
